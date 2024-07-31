@@ -1,12 +1,15 @@
 import _ from 'lodash';
 import './style.css';
+import printMe from './print';
 
  function component() {
    const element = document.createElement('div');
+   const button = document.createElement('button');
 
-  // Lodash, now imported by this script
-   element.innerHTML = _.join(['Hello', 'webpack'], ' ');
-   element.classList.add('hello');
+   button.innerHTML = "fuck me"
+   button.onclick = printMe
+
+   element.appendChild(button)
 
    return element;
  }
