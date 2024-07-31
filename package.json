@@ -1,0 +1,22 @@
+{
+  "name": "doit",
+  "version": "1.0.0",
+  "description": "To-do list project to practice Javascript in The Odin project.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Blueming9511/DOIT.git"
+  },
+  "keywords": [
+    "To-do"
+  ],
+  "author": "Kay",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Blueming9511/DOIT/issues"
+  },
+  "homepage": "https://github.com/Blueming9511/DOIT#readme"
+}
